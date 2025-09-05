@@ -23,3 +23,7 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-filled.scss",
   "tabler-icons/tabler-icons-outline.scss"
 ;
+/* Remove o negrito do nome na seção de perfil */
+.profile-title strong {
+  font-weight: normal !important;
+}
