@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://FernandaARJ.github.io/almeidafernanda.github.io/sitemap.xml
+Sitemap: https://FernandaARJ.github.io/sitemap.xml
