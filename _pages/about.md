@@ -1,34 +1,35 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: "<a href='#'>Affiliations</a>. Address. Contacts."
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>Room 01 021</p>
-    <p>Alfred Weber Institute for Economics, Bergheimer Str. 58</p>
-    <p>Your 69115 Heidelberg (Germany)</p>
+  image: prof_pic.jpg          # make sure this file exists in assets/img/
+  image_circular: false
+  address: |
+    Room 01 021
+    Alfred-Weber-Institut für Wirtschaftswissenschaften (AWI)
+    Bergheimer Straße 58
+    69115 Heidelberg, Germany
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: true
+social: true
 
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  enabled: true
+  scrollable: true
+  limit: 5
 
 latest_posts:
   enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  scrollable: true
+  limit: 3
 ---
 
-I am a PhD candidate at the Chair of International and Development Politics under the supervision of Prof. Dr. Axel Dreher. She holds a Master's degree in Quantitative Economics from Goethe University Frankfurt and a Master's in Economics from the Federal University of Rio de Janeiro. At the same university, she completed her bachelor's degree in economics. Her research interests lie in Development Economics and Political Economy.
+I am a PhD candidate at the Chair of International and Development Politics at Heidelberg University under the supervision of Prof. Dr. Axel Dreher.  
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I hold a Master's degree in Quantitative Economics from Goethe University Frankfurt and a Master's degree in Economics from the Federal University of Rio de Janeiro, where I also completed my Bachelor's degree in Economics.  
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My research interests lie in **Development Economics** and **Political Economy**, with a particular focus on the political economy of development and the impact of international organizations on policy-making in developing countries.
