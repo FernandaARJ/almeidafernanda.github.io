@@ -8,7 +8,7 @@ profile:
   align: right
   image: prof_pic.jpg          # make sure this file exists in assets/img/
   image_circular: false
-    more_info: >
+  more_info: >
     <p>Room 01 021</p>
     <p>123 Alfred Weber Institute for Economics (AWI)</p>
     <p>Bergheimer Str. 58</p>
