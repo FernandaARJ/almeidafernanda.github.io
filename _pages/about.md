@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: "<a href='#'>Affiliations</a>. Address. Contacts."
+subtitle: "Research Associate at the <a href='https://axel-dreher.de/team/'>Chair of International and Development Politics</a>, Heidelberg University"
 
 profile:
   align: right
