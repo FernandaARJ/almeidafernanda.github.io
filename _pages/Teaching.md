@@ -19,6 +19,7 @@ nav_order: 6
 
 ### Lecturer – SRH University Campus Heidelberg
 
+- **Introduction to Economics (for Business Students)** (Undergraduate), Feb 2026 - Mar 2026
 - **Introduction to Economics (for Business Students)** (Undergraduate), Feb 2025 - Mar 2025
 
 
