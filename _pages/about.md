@@ -29,8 +29,8 @@ latest_posts:
   limit: 3
 ---
 
-I am a PhD candidate at the Chair of International and Development Politics at Heidelberg University under the supervision of [Prof. Dr. Axel Dreher](https://axel-dreher.de/)  
+I am a PhD candidate in Economics at the Chair of International and Development Politics at Heidelberg University under the supervision of [Prof. Dr. Axel Dreher](https://axel-dreher.de/)  
 
-I hold a Master's degree in Quantitative Economics from Goethe University Frankfurt and a Master's degree in Economics from the Federal University of Rio de Janeiro, where I also completed my Bachelor's degree in Economics.  
+I hold a Master's degree in Quantitative Economics from Goethe University Frankfurt and a Master's degree in Economics from the Federal University of Rio de Janeiro (UFRJ), where I also completed my Bachelor's degree in Economics.  
 
 My research interests lie in Development Economics and Political Economy, with a particular focus on the political economy of development and the impact of international organizations on policy-making in developing countries.
