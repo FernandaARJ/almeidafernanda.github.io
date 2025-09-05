@@ -1,0 +1,5 @@
+/* override: tira o negrito do primeiro nome no título */
+.post-title .font-weight-bold,
+span.font-weight-bold {
+  font-weight: 400 !important; /* 400 = normal */
+}
