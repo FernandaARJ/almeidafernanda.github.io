@@ -10,7 +10,7 @@ profile:
   image_circular: false
   address: |
     Room 01 021
-    Alfred-Weber-Institut für Wirtschaftswissenschaften (AWI)
+    Alfred Weber Institue for Economics (AWI)
     Bergheimer Straße 58
     69115 Heidelberg, Germany
 
