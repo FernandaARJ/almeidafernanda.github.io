@@ -6,27 +6,31 @@ subtitle: "Research Associate at the <a href='https://axel-dreher.de/team/'>Chai
 
 profile:
   align: right
-  image: prof_pic.jpg          # make sure this file exists in assets/img/
+  image: prof_pic.jpg
   image_circular: false
   more_info: >
     <p>Alfred Weber Institute for Economics (AWI)</p>
     <p>Bergheimer Str. 58</p>
     <p>69115 Heidelberg, Germany</p>
 
+# esconde a seção "Selected publications"
+selected_papers: false
 
-selected_papers: true
 social: true
 
+# esconde "News" (announcements)
 announcements:
-  enabled: true
-  scrollable: true
-  limit: 5
+  enabled: false
+  scrollable: false
+  limit: 0
 
+# esconde "Latest posts"
 latest_posts:
-  enabled: true
-  scrollable: true
-  limit: 3
+  enabled: false
+  scrollable: false
+  limit: 0
 ---
+
 
 I am a PhD candidate in Economics at the Chair of International and Development Politics at Heidelberg University under the supervision of [Prof. Dr. Axel Dreher](https://axel-dreher.de/)  
 
