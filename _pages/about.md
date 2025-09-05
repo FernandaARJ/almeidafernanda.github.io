@@ -10,7 +10,6 @@ profile:
   image_circular: false
   more_info: >
     <p>Alfred Weber Institute for Economics (AWI)</p>
-    <p>Room 01 021</p>
     <p>Bergheimer Str. 58</p>
     <p>69115 Heidelberg, Germany</p>
 
