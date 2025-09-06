@@ -7,6 +7,8 @@ nav_order: 1
 pagination:
   enabled: true
   collection: posts
+  pagefind:
+  exclude: true 
   permalink: /page/:num/
   per_page: 5
   sort_field: date
