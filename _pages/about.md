@@ -10,7 +10,7 @@ profile:
   image_circular: false
   more_info: >
     <p>Alfred Weber Institute for Economics (AWI)</p>
-    <p>Ofifice 01 021</p>
+    <p>Office 01 021</p>
     <p>Bergheimer Str. 58</p>
     <p>69115 Heidelberg, Germany</p>
 
