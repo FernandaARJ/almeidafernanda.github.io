@@ -70,6 +70,12 @@
 <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url | bust_file_cache }}">
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
 
+{%- comment -%} Exclui tudo que vive em /blog/ da busca (posts, anos, tags, categorias) {%- endcomment -%}
+{% if page.url contains '/blog/' %}
+  <meta name="pagefind:exclude" content="true">
+{% endif %}
+
+
 {% if site.enable_darkmode %}
   <!-- Dark Mode -->
   <script src="{{ '/assets/js/theme.js' | relative_url | bust_file_cache }}"></script>
