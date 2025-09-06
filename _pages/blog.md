@@ -4,11 +4,15 @@ permalink: /blog/
 title: blog
 nav: false
 nav_order: 1
+
+# Tell Pagefind to ignore this page
+pagefind:
+  exclude: true
+
+  
 pagination:
   enabled: true
   collection: posts
-  pagefind:
-  exclude: true 
   permalink: /page/:num/
   per_page: 5
   sort_field: date
