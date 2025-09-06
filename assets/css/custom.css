@@ -1,17 +1,1 @@
-/* Evita que o overlay da busca bloqueie cliques quando está fechado */
-.pagefind-ui__modal[aria-hidden="true"] {
-  pointer-events: none !important;
-}
 
-/* Navbar sempre acima do overlay da busca */
-header.site-header,
-.navbar {
-  position: relative;
-  z-index: 2000 !important;
-}
-
-/* Elementos da Pagefind abaixo da navbar */
-.pagefind-ui__wrapper,
-.pagefind-ui__modal {
-  z-index: 1000 !important;
-}
