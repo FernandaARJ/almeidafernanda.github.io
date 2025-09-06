@@ -1,10 +1,11 @@
----
+
 layout: cv
 permalink: /cv/
-title: "CV"          # rótulo da barra e título da página
-nav: true            # inclui na navbar
-nav_order: 5         # posição na navbar
-cv_pdf: /assets/pdf/cv.pdf   # caminho do seu PDF
-toc: false           # sem sidebar/TOC
+title: "Curriculum Vitae"   # page title (big heading)
+nav: true
+nav_title: "CV"             # text shown in the navbar
+nav_order: 5
+cv_pdf: /assets/pdf/cv.pdf
+toc: false
 description:
 ---
