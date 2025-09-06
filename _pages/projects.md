@@ -5,8 +5,9 @@ permalink: /research/
 nav: true
 nav_order: 3
 pagefind:
-exclude: true 
+  exclude: true
 ---
+
 
 ## In progress
 
