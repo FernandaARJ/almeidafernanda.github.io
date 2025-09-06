@@ -227,6 +227,13 @@ defaults:
 sass:
   style: compressed
 
+   # ↓ novo bloco para excluir TODOS os posts da lupa
+  - scope:
+      type: posts        # poderia ser path: "_posts" também
+    values:
+      pagefind:
+        exclude: true
+
 # -----------------------------------------------------------------------------
 # Jekyll Minifier
 # -----------------------------------------------------------------------------
