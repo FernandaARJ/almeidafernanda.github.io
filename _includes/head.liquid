@@ -75,7 +75,6 @@
   <meta name="pagefind:exclude" content="true">
 {% endif %}
 
-
 {% if site.enable_darkmode %}
   <!-- Dark Mode -->
   <script src="{{ '/assets/js/theme.js' | relative_url | bust_file_cache }}"></script>
@@ -194,3 +193,43 @@
 {% if page.tikzjax %}
   <link defer rel="stylesheet" type="text/css" href="https://tikzjax.com/v1/fonts.css">
 {% endif %}
+
+{%- comment -%}
+Keep only Navigation, Socials, and Theme in the ninja-keys palette.
+This filters after the component is ready and retries briefly in case other scripts overwrite data.
+{%- endcomment -%}
+<script>
+  customElements.whenDefined('ninja-keys').then(() => {
+    const nk = document.querySelector('ninja-keys');
+    if (!nk) return;
+
+    const KEEP_SECTIONS = new Set(['Navigation', 'Socials', 'Theme']);
+    const KEEP_IDS      = new Set(['navigation', 'socials', 'theme']);
+
+    const keepItem = (it) => {
+      const sec = (it.section || it.title || '').toString();
+      const id  = (it.id || '').toString();
+      return KEEP_SECTIONS.has(sec) || KEEP_IDS.has(id);
+    };
+
+    const filterItems = (items) => Array.isArray(items)
+      ? items
+          .filter(keepItem)
+          .map(it => ({
+            ...it,
+            children: Array.isArray(it.children) ? it.children.filter(keepItem) : it.children
+          }))
+      : items;
+
+    const applyFilter = () => {
+      if (Array.isArray(nk.data) && nk.data.length) {
+        nk.data = filterItems(nk.data);
+        clearInterval(timer);
+      }
+    };
+
+    // run now and for a short while, in case another script sets data later
+    const timer = setInterval(applyFilter, 200);
+    applyFilter();
+  });
+</script>
